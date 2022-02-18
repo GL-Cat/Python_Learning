@@ -1,0 +1,33 @@
+Python_function (Numpy)
+------------------------------------
+(1) numpy.empty(shape, dtype, order)
+
+    [Brief introduction]
+	Create an array.
+
+    [parameter introduction]
+	shape : Array shape
+	dytpe : Array type, You can choose for yourself.
+	order : Represents the order of storage within a computer.
+
+(2) numpy.zeros(shape, dtype, order)
+    
+    Differences of numpy.empty:
+	The contents of the created array are initialized to zero
+
+(3) numpy.ones(shape, dtype, order)
+
+    Differences of numpy.empty:
+	The contents of the created array are initialized to 1
+
+(4) numpy.asarray(a, dtype, order)
+   [Brief introduction]
+	Converts Structural data into multidimensional arrays.
+   [parameter introduction]
+	a : Any form of input parameter, For example, lists, tuples of lists, tuples of tuples, lists of tuples, and multidimensiona            l arrays.
+	dtype : Date type.
+	order : Represents the order of storage within a computer.
+
+(5) numpy.frombuffer(buffer, dtype, count, offset)
+    [Brief introduction]
+	
